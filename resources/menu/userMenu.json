@@ -1,0 +1,95 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon icon-base ti tabler-smart-home",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Services",
+      "icon": "menu-icon icon-base ti tabler-credit-card",
+      "slug": ["service","complaint"],
+      "submenu": [
+        {
+          "url": "/service/payout",
+          "name": "Payout",
+          "slug": "service.payout"
+        },
+        {
+          "url": "/service/load-money",
+          "name": "Load Money",
+          "slug": "service.load-money"
+        },
+        {
+          "url": "/service/bill-payment",
+          "name": "Bill Payment",
+          "slug": "service.bill-payment",
+          "submenus": ["service.bill-payment.category","service.bill-payment.biller-info","service.bill-payment.bill-fetch","service.bill-payment.validate-bill","service.bill-payment.view-plans","service.bill.quickpay","service.bill.pay","service.bill.validate","complaint.create","complaint.register","complaint.track.page","complaint.track"]
+        }
+      ]
+    },
+    {
+      "name": "Reports",
+      "icon": "menu-icon icon-base ti tabler-files",
+      "slug": "report",
+      "submenu": [
+        {
+          "url": "/report/payout-transactions",
+          "name": "Payout Transactions",
+          "slug": "report.payout-transactions"
+        },
+        {
+          "url": "/report/payin-transactions",
+          "name": "Payin Transactions",
+          "slug": "report.payin-transactions"
+        },
+        {
+          "url": "/report/complaints",
+          "name": "B-Connect Complaint Logs",
+          "slug": "report.complaints"
+        },
+        {
+          "url": "/report/bbps-transactions",
+          "name": "B-Connect Transactions",
+          "slug": "report.bbps-transactions"
+        },
+        {
+          "url": "/report/api-logs",
+          "name": "Api's Logs",
+          "slug": "report.api-logs"
+        }
+      ]
+    },
+    {
+      "url": "/user-wallet",
+      "name": "Wallet",
+      "icon": "menu-icon icon-base ti tabler-cash",
+      "slug": "user-wallet"
+    },
+    {
+      "url": "/wallet-history",
+      "name": "Wallet History",
+      "icon": "menu-icon icon-base ti tabler-history",
+      "slug": "wallet-history"
+    },
+    {
+      "url": "/fund-requests",
+      "name": "Fund Requests",
+      "icon": "menu-icon icon-base ti tabler-wallet",
+      "slug": "fund-requests"
+    },
+    {
+      "url": "/profile",
+      "name": "Profile",
+      "icon": "menu-icon icon-base ti tabler-id",
+      "slug": "profile"
+    },
+    {
+      "url": "/user-bank-accounts",
+      "name": "Master Bank Accounts",
+      "icon": "menu-icon icon-base ti tabler-building-bank",
+      "slug": "user-bank-accounts.index"
+    }
+  ]
+}

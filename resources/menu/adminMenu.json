@@ -1,0 +1,94 @@
+{
+  "menu": [
+    {
+      "url": "/admin/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon icon-base ti tabler-smart-home",
+      "slug": "admin.dashboard"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon icon-base ti tabler-users",
+      "slug": "admin.user",
+      "submenu": [
+        {
+          "url": "/admin/user",
+          "name": "List",
+          "slug": "admin.user.list"
+        },
+        {
+          "url": "/admin/user/create",
+          "name": "Create",
+          "slug": "admin.user.create"
+        }
+      ]
+    },
+    {
+      "name": "Reports",
+      "icon": "menu-icon icon-base ti tabler-files",
+      "slug": "admin.report",
+      "submenu": [
+        {
+          "url": "/admin/report/payout-transactions",
+          "name": "Payout Transactions",
+          "slug": "admin.report.payout-transactions"
+        },
+        {
+          "url": "/admin/report/payin-transactions",
+          "name": "Payin Transactions",
+          "slug": "admin.report.payin-transactions"
+        },
+        {
+          "url": "/admin/report/bank-statement",
+          "name": "Bank Statement",
+          "slug": "admin.report.bank_statement"
+        },
+        {
+          "url": "/admin/report/complaints",
+          "name": "BBPS Complaint Logs",
+          "slug": "admin.report.complaints"
+        },
+        {
+          "url": "/admin/report/bbps-transactions",
+          "name": "BBPS Transactions",
+          "slug": "admin.report.bbps-transactions"
+        },
+        {
+          "url": "/admin/report/api-logs",
+          "name": "Api's Logs",
+          "slug": "admin.report.api-logs"
+        }
+      ]
+    },
+    {
+      "url": "/admin/fund-requests",
+      "name": "Fund Requests",
+      "icon": "menu-icon icon-base ti tabler-cash-banknote",
+      "slug": "admin.fund-requests"
+    },
+    {
+      "url": "/admin/user-login-logs",
+      "name": "User Login Logs",
+      "icon": "menu-icon icon-base ti tabler-login",
+      "slug": "admin.userLoginLog.list"
+    },
+    {
+      "url": "/admin/sub-admins",
+      "name": "Sub Admins",
+      "icon": "menu-icon icon-base ti tabler-users",
+      "slug": "admin.subadmins.index"
+    },
+    {
+      "url": "/admin/wallet-history",
+      "name": "Wallet History",
+      "icon": "menu-icon icon-base ti tabler-history",
+      "slug": "admin.wallet-history"
+    },
+    {
+      "url": "/admin/company-accounts",
+      "name": "Master Bank Accounts",
+      "icon": "menu-icon icon-base ti tabler-building-bank",
+      "slug": "admin.company-accounts.index"
+    }
+  ]
+}
